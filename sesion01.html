@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<script src ="funcion.js">
+	</script></head>
+<body>
+	
+	<div class="container">
+		<label for="apellido">Apellido:</label>
+<input type="text" id="apellido" placeholder="Ingresa el apellido">
+<br><br>
+
+		<label for="salarioBase">Salario base:</label>
+		<input type="number" id="salarioBase" placeholder="Ingresa el salario base">
+	<br><br>
+
+		<label for="dias">Días trabajados:</label>
+		<input type="number" id="dias" placeholder="Ingresa los días trabajados">
+		<br><br>
+
+		<label for="bonificacion">Porcentaje de bonificación 1:</label>
+		<input type="number" id="bonificacion" placeholder="Ingresa la bonificación">
+		<br><br>
+
+		<label for="bonificacion2">Porcentaje de bonificación 2:</label>
+		<input type="number" id="bonificacion2" placeholder="Ingresa la segunda bonificación">
+		<br><br>
+
+		<label for="tiempoExtra">Horas extras trabajadas:</label>
+		<input type="number" id="tiempoExtra" placeholder="Ingrese el tiempo extra trabajado">
+		<br><br>
+
+		<button onclick="calcularSalario()">Calcular Salario</button>
+	
+		<p id="resultado">El salario total de <span id="apellidoo"></span> es: <span id="salarioTotal"></span></p>
+	</div>
+</body>
+</html>
+
+
+
+
